@@ -14,7 +14,6 @@ app.post('/upload', (req, res) => {
 
   file.mv(`${__dirname}/client/public/uploads/${file.name}`, error => {
     if (error) {
-      console.error(error);
       return res.status(500).send(error);
     }
 
