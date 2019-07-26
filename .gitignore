@@ -1,5 +1,5 @@
 package-lock.json
-client/public/uploads
+client/public/uploads/*
 
 # Logs
 logs
